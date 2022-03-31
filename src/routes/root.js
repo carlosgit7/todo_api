@@ -6,7 +6,7 @@ const router = Router()
 
 router.get('/', (req, res) => {
   logger.log.success('Calling Root')
-  res.send({ msg: 'Hello!' })
+  res.send({ msg: 'Carlos A Gonzales' })
 })
 
 export default router
